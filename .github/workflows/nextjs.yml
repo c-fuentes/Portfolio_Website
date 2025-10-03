@@ -61,10 +61,21 @@ jobs:
           #
           # You may remove this line if you want to manage the configuration yourself.
           static_site_generator: next
-      - name: Cache
-        uses: actions/cache@v4.3.0
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Next.js project
+        run: npx next build
+
+
       - name: Restore cache
-        uses: actions/cache@v4
+        uses: actions/cache@v4.3.0
         with:
           path: |
             .next/cache
