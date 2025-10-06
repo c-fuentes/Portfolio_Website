@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import capture from "./Capture.PNG"
 export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
@@ -19,7 +19,7 @@ export default function Home() {
             PowerBI does not allow me to embed the report with my personal Microsoft account so I am going to show some screen captures of the referees who were close to being outliers. 
           </p>
           <div>
-             <Image src={`${process.env.PAGES_BASE_PATH || ''}/images/Capture.png`} alt="" width="1000" height="800"/> 
+             <Image src={capture} alt="" width="1000" height="800"/> 
           </div>
 
           <div>
