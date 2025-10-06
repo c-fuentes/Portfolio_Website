@@ -19,7 +19,7 @@ export default function Home() {
             PowerBI does not allow me to embed the report with my personal Microsoft account so I am going to show some screen captures of the referees who were close to being outliers. 
           </p>
           <div>
-             <Image src="/Portfolio_Website/images/Capture.png" alt="" width="1000" height="800"/> 
+             <Image src={`${process.env.PAGES_BASE_PATH || ''}/images/Capture.png`} alt="" width="1000" height="800"/> 
           </div>
 
           <div>
