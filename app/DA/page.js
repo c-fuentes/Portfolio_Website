@@ -1,5 +1,9 @@
 import Image from "next/image";
-import capture from "./Capture.PNG"
+import Capture from "./images/Capture.PNG"
+import Away from "./images/Away.PNG"
+import Overall from "./images/Overall.PNG"
+import WolvesHome from "./images/WolvesHome.PNG"
+
 export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
@@ -19,19 +23,19 @@ export default function Home() {
             PowerBI does not allow me to embed the report with my personal Microsoft account so I am going to show some screen captures of the referees who were close to being outliers. 
           </p>
           <div>
-             <Image src={capture} alt="" width="1000" height="800"/> 
+             <Image src={Capture} alt="" width="1000" height="800"/> 
           </div>
 
           <div>
-             <Image src="/images/Overall.png" alt="" width="1000" height="800"/> 
+             <Image src={Overall} alt="" width="1000" height="800"/> 
           </div>
           
           <div>
-             <Image src="/images/WolvesHome.png" alt="" width="1000" height="800"/> 
+             <Image src={WolvesHome} alt="" width="1000" height="800"/> 
           </div>
 
           <div>
-             <Image src="/images/Away.png" alt="" width="1000" height="800"/> 
+             <Image src={Away} alt="" width="1000" height="800"/> 
           </div>
         </div>
 
