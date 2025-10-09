@@ -8,8 +8,19 @@ export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-2 items-start ">
-        <p>Investigation into historical bias from referees in the NBA</p>
         <div>
+          <ul>
+            <h1>Table of Contents</h1>
+            <li>
+              <a href="#NBA">Investigating Historical NBA Referee Bias</a>
+            </li>
+            <li>
+              Is their a correlation between data centers operating and an increase in residential power rates
+            </li>
+          </ul>
+        </div>
+        <p>Investigation into historical bias from referees in the NBA</p>
+        <div id="NBA">
           <p>
             This was my first project in data analysis. I had some previous expereince with SQL by using it for database design and implementation. Therefore, our two person team (me and <a src="
             https://www.linkedin.com/in/levi-riggins-154bbb289/">Levi Riggins</a>) wanted to use as many new tools to try and answer our question: Do referees in 
