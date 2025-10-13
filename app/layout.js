@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
             <Link href={"/"}> Home </Link>
           </div>
           <div className="text-center border-4 border-double flex-row justify-center">
-            <Link  href={"/DataCleaning"}> Data Cleaning Projects</Link>
+            <Link  href={"/DC"}> Data Cleaning Projects</Link>
           </div>
           <div className="text-center border-4 border-double ml-2 md:ml-0 flex-row justify-center">
             <Link href={"/EDA"}> EDA Projects</Link>
