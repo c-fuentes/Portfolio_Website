@@ -20,10 +20,10 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/social_media_svg/linkedin.svg"
+            src="/Portfolio_Website/social_media_svg/linkedin.svg"
             alt="linkedin icon"
-            width={16}
-            height={16}
+            width={32}
+            height={32}
           />
         </a>
         <a
@@ -34,10 +34,10 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/social_media_svg/github.svg"
+            src="/Portfolio_Website/social_media_svg/github.svg"
             alt="github icon"
-            width={16}
-            height={16}
+            width={32}
+            height={32}
           />
         </a>
       </footer>

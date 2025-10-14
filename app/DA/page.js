@@ -33,26 +33,26 @@ export default function Home() {
             PowerBI does not allow me to embed the report with my personal Microsoft account so I am going to show some screen captures of the referees who were close to being outliers. 
           </p>
           <div className="grid grid-cols-2">
-             <Image src="/images/Capture.PNG" alt="" width="1000" height="800"/> 
+             <Image src="/Portfolio_Website/Capture.PNG" alt="" width="1000" height="800"/> 
 
              <p>Insert in depth explaination of image</p>
           </div>
 
           <div className="grid grid-cols-2">
-             <Image src="/images/Overall.PNG" alt="" width="1000" height="800"/>
+             <Image src="/Portfolio_Website/Overall.PNG" alt="" width="1000" height="800"/>
 
              <p>Insert in depth explaination of image</p>
           </div>
           
           <div className="grid grid-cols-2">
-             <Image src="/images/WolvesHome.PNG" alt="" width="1000" height="800"/>
+             <Image src="/Portfolio_Website/WolvesHome.PNG" alt="" width="1000" height="800"/>
 
              <p>Insert in depth explaination of image</p> 
           </div>
 
           <div className="grid grid-cols-2">
             
-             <Image src="/images/Away.PNG" alt="" width="1000" height="800"/>
+             <Image src="/Portfolio_Website/Away.PNG" alt="" width="1000" height="800"/>
 
              <p>Insert in depth explaination of image</p> 
           </div>
