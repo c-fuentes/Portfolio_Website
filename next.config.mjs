@@ -7,9 +7,6 @@ const nextConfig = {
     assetPrefix: isProd ? '/Portfolio_Website' : "",
     output: "export",
     reactStrictMode: true,
-    images: {
-    unoptimized: true
-    },
 };
 
 export default nextConfig;

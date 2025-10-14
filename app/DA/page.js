@@ -1,8 +1,7 @@
 import Image from "next/image";
-import Capture from "./images/Capture.PNG"
-import Away from "./images/Away.PNG"
-import Overall from "./images/Overall.PNG"
-import WolvesHome from "./images/WolvesHome.PNG"
+//import Capture from "./images/Capture.PNG"
+//import Overall from "./images/Overall.PNG"
+//import WolvesHome from "./images/WolvesHome.PNG"
 
 export default function Home() {
   return (
@@ -33,20 +32,29 @@ export default function Home() {
             The report was fully interactive letting users select specific teams or specific referees and allowed for navigation.
             PowerBI does not allow me to embed the report with my personal Microsoft account so I am going to show some screen captures of the referees who were close to being outliers. 
           </p>
-          <div>
-             <Image src={Capture} alt="" width="1000" height="800"/> 
+          <div className="grid grid-cols-2">
+             <Image src="/images/Capture.PNG" alt="" width="1000" height="800"/> 
+
+             <p>Insert in depth explaination of image</p>
           </div>
 
-          <div>
-             <Image src={Overall} alt="" width="1000" height="800"/> 
+          <div className="grid grid-cols-2">
+             <Image src="/images/Overall.PNG" alt="" width="1000" height="800"/>
+
+             <p>Insert in depth explaination of image</p>
           </div>
           
-          <div>
-             <Image src={WolvesHome} alt="" width="1000" height="800"/> 
+          <div className="grid grid-cols-2">
+             <Image src="/images/WolvesHome.PNG" alt="" width="1000" height="800"/>
+
+             <p>Insert in depth explaination of image</p> 
           </div>
 
-          <div>
-             <Image src={Away} alt="" width="1000" height="800"/> 
+          <div className="grid grid-cols-2">
+            
+             <Image src="/images/Away.PNG" alt="" width="1000" height="800"/>
+
+             <p>Insert in depth explaination of image</p> 
           </div>
         </div>
 
