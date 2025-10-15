@@ -23,23 +23,16 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="grid grid-cols-2 md:grid-cols-4 text-lg gap-4 font-mono mt-4 flex-row justify-center border-4 border-solid border-blue-400 mt-0"> 
-          <div className="text-center ml-2 flex-row justify-center">
-            <Link href={"/"}> Home </Link>
-          </div>
-          <div className="text-center flex-row justify-center">
-            <Link  href={"/DC"}> Data Cleaning Projects</Link>
-          </div>
-          <div className="text-center ml-2 md:ml-0 flex-row justify-center">
-            <Link href={"/EDA"}> EDA Projects</Link>
-          </div>
-          <div className="text-center ml-2 flex-row justify-center">
-            <Link href={"/DA"}> Data Analysis Projects</Link> 
-          </div>   
-        </div>
+        <ul className="grid grid-cols-2 md:grid-cols-4 text-lg gap-4 font-mono flex-row justify-center border-b-3 border-solid border-blue-500/55 rounded-lg md:divide-none sm:divide-x sm:divide-y sm:divide-solid sm:divide-gray-200">
+          <li className="text-center flex-row justify-center "><Link href={"/"}>Home</Link></li>
+          <li className="text-center flex-row justify-center "><Link href={"/DC"}>Data Cleaning Projects</Link></li>
+          <li className="text-center flex-row justify-center "><Link href={"/EDA"}>EDA Projects</Link></li>
+          <li className="text-center flex-row justify-center "><Link href={"/DA"}>Data Analysis Projects</Link></li>
+        </ul>
 
         {children}
       </body>
+      
     </html>
   );
 }

@@ -17,6 +17,36 @@ export default function Home() {
             
         </div>
       </main>
+      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+              <a
+                className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+                href="https://www.linkedin.com/in/celso-fuentes-07aa5b204"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  aria-hidden
+                  src="/Portfolio_Website/social_media_svg/linkedin.svg"
+                  alt="linkedin icon"
+                  width={32}
+                  height={32}
+                />
+              </a>
+              <a
+                className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+                href="https://www.github.com/c-fuentes"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  aria-hidden
+                  src="/Portfolio_Website/social_media_svg/github.svg"
+                  alt="github icon"
+                  width={32}
+                  height={32}
+                />
+              </a>
+      </footer>
     </div>
   );
 }
