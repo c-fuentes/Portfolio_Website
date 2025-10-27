@@ -28,8 +28,8 @@ export default function Home() {
                   aria-hidden
                   src="/Portfolio_Website/social_media_svg/linkedin.svg"
                   alt="linkedin icon"
-                  width={32}
-                  height={32}
+                  width={45}
+                  height={45}
                 />
               </a>
               <a

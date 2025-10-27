@@ -2,13 +2,15 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-start ">
-        <h1>Celso Alejandro Fuentes</h1>
-        <p>Graduated Suma Cum Laude from Clayton State and looking for Data Roles (Data Analyst, Reporting Analyst, Business Analyst, etc.)</p>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          
+    <div className="font-sans grid grid-rows-1 items-center justify-items-center min-h-screen p-8 text-center ">
+      <main className="flex flex-col gap-[32px] row-start-1 items-start">
+        <div className="flex gap-4 items-start flex-col sm:flex-row">
+          <ul>
+                <li className="font-semibold">Celso Alejandro Fuentes</li>
+                <li>
+                    Graduated Suma Cum Laude from Clayton State and looking for Data Roles (Data Analyst, Reporting Analyst, Business Analyst, etc.)
+                </li>
+            </ul>
         </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
@@ -22,8 +24,8 @@ export default function Home() {
             aria-hidden
             src="/Portfolio_Website/social_media_svg/linkedin.svg"
             alt="linkedin icon"
-            width={32}
-            height={32}
+            width={45}
+            height={45}
           />
         </a>
         <a
