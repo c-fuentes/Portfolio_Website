@@ -5,16 +5,16 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="font-mono text-lg grid grid-rows-2 items-start justify-items-center min-h-screen p-8 gap-16 text-center bg-gray-100 dark:bg-gray-900">
+    <div className="font-mono text-lg grid grid-rows-1 items-start justify-items-center p-8 gap-16 text-center bg-gray-100 dark:bg-gray-900">
       <main className="flex flex-col gap-[32px] row-start-1 items-center">
         <div className="bg-white rounded-xl border-2 border-gray-200 w-5/6 p-5 dark:bg-slate-800 dark:border-gray-700">
           <ol>
             <h1 className="font-bold">Table of Contents</h1>
             <li>
-              <a href="#NBA">Investigating Historical NBA Referee Bias</a>
+              <a href="#NBA" className="after:content-['_↗']">Investigating Historical NBA Referee Bias</a>
             </li>
             <li>
-              <a href="#Electric">Is their a correlation between data centers operating and an increase in residential power rates</a>
+              <a href="#Electric" className="after:content-['_↗']">Is their a correlation between data centers operating and an increase in residential power rates</a>
             </li>
           </ol>
         </div>
@@ -61,7 +61,6 @@ export default function Home() {
           <p className="font-semibold">Is their a correlation between data centers operating and an increase in residential power rates</p>
           <p>This project is a work in progress right now as I am still performing data cleaning on a dataset I scrapped from the Georgia Public Service Commission page. I also need to scrape some data on all the data centers in the State of Georgia to match with the corresponding power company.</p>
         </div>
-
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
               <a
