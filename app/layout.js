@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ul className="grid grid-cols-2 md:grid-cols-4 text-xl gap-4 font-mono flex-row justify-center items-center md:divide-none sm:divide-x sm:divide-y sm:divide-solid sm:divide-gray-200 bg-gradient-to-r from-blue-300 to-red-300 h-25 dark:bg-gradient-to-r dark:from-red-900 dark:to-blue-900">
+        <ul className="grid grid-cols-2 md:grid-cols-4 text-xl flex gap-4 font-mono flex-row justify-center items-center bg-gradient-to-r from-blue-300 to-red-300 sm:h-auto md:h-25 dark:bg-gradient-to-r dark:from-red-900 dark:to-blue-900">
           <li className="text-center flex-row justify-center"><Link href={"/"}>Home</Link></li>
           <li className="text-center flex-row justify-center "><Link href={"/DA"}>Data Analysis Projects</Link></li>
           <li className="text-center flex-row justify-center "><Link href={"/DC"}>Data Cleaning Projects</Link></li>

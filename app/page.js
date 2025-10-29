@@ -14,7 +14,7 @@ export default function Home() {
             height={150}
           />
         </div>
-        <div className="flex gap-4 items-center flex-col sm:flex-row bg-white rounded-xl border-2 border-gray-200 w-5/6 h-48 text-center align-middle p-5 dark:bg-slate-800 dark:border-gray-700">
+        <div className="flex gap-4 items-center flex-col sm:flex-row bg-white rounded-xl border-2 border-gray-200 w-5/6 md:h-48 text-center align-middle p-5 dark:bg-slate-800 dark:border-gray-700 sm:h-auto">
           <ul>
                 <li className="font-semibold">Celso Alejandro Fuentes</li>
                 <li>
