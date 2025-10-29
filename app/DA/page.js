@@ -5,9 +5,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="font-mono text-lg grid grid-rows-1 items-start justify-items-center min-h-screen p-8 gap-16 text-center bg-gray-100">
+    <div className="font-mono text-lg grid grid-rows-2 items-start justify-items-center min-h-screen p-8 gap-16 text-center bg-gray-100 dark:bg-gray-900">
       <main className="flex flex-col gap-[32px] row-start-1 items-center">
-        <div className="bg-white rounded-xl border-2 border-gray-200 w-5/6 p-5">
+        <div className="bg-white rounded-xl border-2 border-gray-200 w-5/6 p-5 dark:bg-slate-800 dark:border-gray-700">
           <ol>
             <h1 className="font-bold">Table of Contents</h1>
             <li>
@@ -18,7 +18,7 @@ export default function Home() {
             </li>
           </ol>
         </div>
-        <div id="NBA" className="grid gap-4 bg-white rounded-xl border-2 border-gray-200 w-5/6 p-5">
+        <div id="NBA" className="grid gap-4 bg-white rounded-xl border-2 border-gray-200 w-5/6 p-5 dark:bg-slate-800 dark:border-gray-700">
           <p className="font-semibold" >Investigation into historical bias from referees in the NBA</p>
           <p>
             This was my first project in data analysis. I had some previous expereince with SQL by using it for database design and implementation. Therefore, our two person team (me and <a href="
@@ -57,7 +57,7 @@ export default function Home() {
              <p>Insert in depth explaination of image</p> 
           </div>
         </div>
-        <div id="Electric" className="grid gap-4 bg-white rounded-xl border-2 border-gray-200 w-5/6 p-5">
+        <div id="Electric" className="grid gap-4 bg-white rounded-xl border-2 border-gray-200 w-5/6 p-5 dark:bg-slate-800 dark:border-gray-700">
           <p className="font-semibold">Is their a correlation between data centers operating and an increase in residential power rates</p>
           <p>This project is a work in progress right now as I am still performing data cleaning on a dataset I scrapped from the Georgia Public Service Commission page. I also need to scrape some data on all the data centers in the State of Georgia to match with the corresponding power company.</p>
         </div>
@@ -72,6 +72,7 @@ export default function Home() {
               >
                 <Image
                   aria-hidden
+                  className="dark:invert"
                   src="/Portfolio_Website/social_media_svg/Untitled.svg"
                   alt="linkedin icon"
                   width={45}
@@ -86,6 +87,7 @@ export default function Home() {
               >
                 <Image
                   aria-hidden
+                  className="dark:invert"
                   src="/Portfolio_Website/social_media_svg/github.svg"
                   alt="github icon"
                   width={32}

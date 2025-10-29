@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="font-mono text-lg grid grid-rows-1 items-center justify-items-center min-h-screen p-8 text-center bg-gray-100">
+    <div className="font-mono text-lg grid grid-rows-1 items-center justify-items-center min-h-screen p-8 text-center bg-gray-100 dark:bg-gray-900">
       <main className="flex flex-col gap-[32px] row-start-1 items-center justify-items-center">
         <div>
           <Image
@@ -14,7 +14,7 @@ export default function Home() {
             height={150}
           />
         </div>
-        <div className="flex gap-4 items-center flex-col sm:flex-row bg-white rounded-xl border-2 border-gray-200 w-5/6 h-48 text-center align-middle p-5">
+        <div className="flex gap-4 items-center flex-col sm:flex-row bg-white rounded-xl border-2 border-gray-200 w-5/6 h-48 text-center align-middle p-5 dark:bg-slate-800 dark:border-gray-700">
           <ul>
                 <li className="font-semibold">Celso Alejandro Fuentes</li>
                 <li>
@@ -31,6 +31,7 @@ export default function Home() {
           >
             <Image
               aria-hidden
+              className="dark:invert"
               src="/Portfolio_Website/social_media_svg/Untitled.svg"
               alt="linkedin icon"
               width={32}
@@ -45,6 +46,7 @@ export default function Home() {
           >
             <Image
               aria-hidden
+              className="dark:invert"
               src="/Portfolio_Website/social_media_svg/github.svg"
               alt="github icon"
               width={32}

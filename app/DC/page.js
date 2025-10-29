@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="font-mono text-lg grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 bg-gray-100">
+    <div className="font-mono text-lg grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 bg-gray-100 dark:bg-gray-900">
       <main className="flex flex-col gap-[32px] row-start-2 items-start ">
-        <div className="bg-white rounded-xl border-2 border-gray-200 w-5/6 p-5">
+        <div className="bg-white rounded-xl border-2 border-gray-200 w-5/6 p-5 dark:bg-slate-800 dark:border-gray-700">
             <ul>
                 <h1>Table of Contents</h1>
                 <li>
@@ -13,7 +13,7 @@ export default function Home() {
                 </li>
             </ul>
         </div>
-        <div className="bg-white rounded-xl border-2 border-gray-200 w-5/6 p-5">
+        <div className="bg-white rounded-xl border-2 border-gray-200 w-5/6 p-5 dark:bg-slate-800 dark:border-gray-700">
 
         </div>
       </main>
@@ -26,6 +26,7 @@ export default function Home() {
               >
                 <Image
                   aria-hidden
+                  className="dark:invert"
                   src="/Portfolio_Website/social_media_svg/Untitled.svg"
                   alt="linkedin icon"
                   width={45}
@@ -40,6 +41,7 @@ export default function Home() {
               >
                 <Image
                   aria-hidden
+                  className="dark:invert"
                   src="/Portfolio_Website/social_media_svg/github.svg"
                   alt="github icon"
                   width={32}
