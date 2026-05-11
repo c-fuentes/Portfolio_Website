@@ -10,7 +10,7 @@ export default function Home() {
                 <label for="fname">First name:</label><br></br>
                 <input type="text" id="fname" name="fname" value="John" pattern="[A-Za-z]{20}" required autocomplete="on"></input><br></br>
                 <label for="lname">Last name:</label><br></br>
-                <input type="text" id="lname" name="lname" value="Doe"  pattern="[A-Za-z]{20}" required autocomplete="on"></input><br></br>
+                <input className="bg-white" type="text" id="lname" name="lname" value="Doe"  pattern="[A-Za-z]{20}" required autocomplete="on"></input><br></br>
                 <label for="pnum">Phone Number:</label><br></br>
                 <input type="tel" id="pnum" name="pnum" placeholder="404-999-9999" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required autocomplete="on"></input><br></br>
                 <label for="email">Enter your email:</label><br></br>
