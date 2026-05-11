@@ -8,7 +8,7 @@ export default function Home() {
           <Image
             className="rounded-full"
             aria-hidden
-            src="/Portfolio_Website/IMG_2934.JPG"
+            src="/Portfolio_Website/headshot.JPG"
             alt="headshot icon"
             width={150}
             height={150}
