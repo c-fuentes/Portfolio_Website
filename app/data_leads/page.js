@@ -5,7 +5,7 @@ export default function Home() {
     <div className="font-mono text-lg grid grid-rows-1 items-center justify-items-center min-h-[850px] p-8 text-center bg-gray-100 dark:bg-gray-900">
       <main className="flex flex-col gap-[32px] row-start-1 items-center justify-items-center">
           <div>
-            //placeholder actions for later, need to figure out how to make the post and get work for next js and what server to hookup to, and aws stuff
+            <p>placeholder actions for later, need to figure out how to make the post and get work for next js and what server to hookup to, and aws stuff</p>
             <form action="/action_page.php" method="post">
                 <label for="fname">First name:</label><br></br>
                 <input type="text" id="fname" name="fname" value="John" pattern="[A-Za-z]{20}" required autocomplete="on"></input><br></br>
@@ -30,7 +30,7 @@ export default function Home() {
                 <input type="submit" value="Submit" ></input>
             </form>
 
-            <p>By filling out the form, you are providing express consent by electronic signature that you may be contacted by telephone (via call and/or text messages) and/or email for marketing purposes</p>
+            <p>By filling out the form, you are providing express consent by electronic signature that you may be contacted by telephone .via call and/or text messages. and/or email for marketing purposes</p>
           </div>
       </main>
     </div>
